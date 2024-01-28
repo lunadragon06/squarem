@@ -13,5 +13,6 @@ function sum(): void {
 
   const squareMeters = firstMeter * secondMeter;
   result.innerHTML = squareMeters.toFixed(2) + " m².";
+  
   console.log(squareMeters.toFixed(2) + " m².");
 }
