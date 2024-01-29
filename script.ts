@@ -13,7 +13,9 @@ second.addEventListener("input", sum);
 
 // How we want the numbers to display
 function sum(): void {
+  // first input field
   const firstMeter: number = parseFloat(first.value) || 0;
+  // second input field 
   const secondMeter: number = parseFloat(second.value) || 0;
 
   /* See what has been typed inside the console log */
