@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SquareM Calculator</title>
+    <link href="css/styles.css" rel="stylesheet" />
     <script src="script.js" defer></script>
 </head>
 <body>
-    <input type="number" id="firstMeter"><span class="meter">m</span>
-    <p class="multiply">
-    x
-    </p>
-    <input type="number" id="secondMeter"><span class="meter">m</span>
-    <p class="result_container">Your room is: <span id="result"></span></p>
+    <form>
+        <h1>Calculate the number of total square meter (m²)</h1>
+        <p class="description">Try this tool to calculate the number of square meters based on two sides of a square or rectangle, and the tool will automatically calculate as you enter numbers inside the fields.</p>
+        <article class="input">
+            <input type="number" id="firstMeter"><span class="meter">m²</span>
+        </article>
+        <p class="multiply">
+        x
+        </p>
+        <article class="input">
+            <input type="number" id="secondMeter"><span class="meter">m²</span>
+        </article>
+        <p class="result_container">Your room is: <span class="result" id="result"></span></p>
+    </form>
 </body>
 </html>
