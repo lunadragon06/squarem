@@ -11,6 +11,7 @@ const result = document.getElementById("result") as HTMLElement;
 first.addEventListener("input", sum);
 second.addEventListener("input", sum);
 
+// How we want the numbers to display
 function sum(): void {
   const firstMeter: number = parseFloat(first.value) || 0;
   const secondMeter: number = parseFloat(second.value) || 0;
