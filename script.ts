@@ -2,6 +2,7 @@ export {}; // cannot redeclare block-scoped variables
 
 const first = document.getElementById("firstMeter") as HTMLInputElement;
 const second = document.getElementById("secondMeter") as HTMLInputElement;
+// Where the results will display
 const result = document.getElementById("result") as HTMLElement;
 
 /* Trigger the typing-function */
