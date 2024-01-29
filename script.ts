@@ -1,4 +1,4 @@
-export {}; // cannot redeclare block-scoped variables
+export {}; // cannot redeclare block-scoped variables?
 
 // Locate the input fields we want to trigger 
 const first = document.getElementById("firstMeter") as HTMLInputElement;
@@ -22,6 +22,8 @@ function sum(): void {
   /* Display the result(s) that has been typed in */
   const squareMeters = firstMeter * secondMeter;
   result.innerHTML = squareMeters.toFixed(2) + " m².";
+
+  // Show the results
   result.style.display = "block";
   
   /* Control the result outcome while typing */
