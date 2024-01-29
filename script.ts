@@ -1,7 +1,9 @@
 export {}; // cannot redeclare block-scoped variables
 
+// Locate the input fields we want to trigger 
 const first = document.getElementById("firstMeter") as HTMLInputElement;
 const second = document.getElementById("secondMeter") as HTMLInputElement;
+
 // Where the results will display
 const result = document.getElementById("result") as HTMLElement;
 
@@ -12,7 +14,7 @@ second.addEventListener("input", sum);
 function sum(): void {
   const firstMeter: number = parseFloat(first.value) || 0;
   const secondMeter: number = parseFloat(second.value) || 0;
-  
+
   /* See what has been typed inside the console log */
   console.log(firstMeter + " x " + secondMeter);
 
