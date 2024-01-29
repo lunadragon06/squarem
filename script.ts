@@ -21,9 +21,11 @@ function sum(): void {
 
   /* Display the result(s) that has been typed in */
   const squareMeters = firstMeter * secondMeter;
+
+  // How the results will be seen
   result.innerHTML = squareMeters.toFixed(2) + " m².";
 
-  // Show the results
+  // Show all the results
   result.style.display = "block";
   
   /* Control the result outcome while typing */
