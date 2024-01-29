@@ -12,6 +12,7 @@ second.addEventListener("input", sum);
 function sum(): void {
   const firstMeter: number = parseFloat(first.value) || 0;
   const secondMeter: number = parseFloat(second.value) || 0;
+  
   /* See what has been typed inside the console log */
   console.log(firstMeter + " x " + secondMeter);
 
