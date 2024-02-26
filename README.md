@@ -1,5 +1,7 @@
 # 🟦 SquareM
 ![squareM](https://github.com/lunadragon06/squarem/assets/104011338/9ca98bc4-d1db-44f7-a2c8-bf0a369e3946)
+<br>
+<b>Small preview:</b> Quick demonstration of how it works on live (shown for test-purpose only). 
 
 ## Project description 
 One of the repos where I simply practice myself to adopt the superset of JavaScript combined with one of the language extensions for CSS. This repo will or may be updated consecutively when my knowledge set about these fields is further developed. 
